@@ -14,7 +14,6 @@ h1 {
   margin-top: 55px;
   position: absolute;
   display: flex;
-  z-index: 0;
 }
 
 
@@ -30,11 +29,11 @@ h1 {
 .HomePage h2{
   color:#51371c;
   font-family: "Kodchasan", sans-serif;
-  font-weight: 400;
+  font-weight: 600;
   font-style: normal;
   font-size: 32px;
   justify-self: center;
-  margin-top: -125px;
+  margin-top: -120px;
   transform: translateX(0%)
 }
 
@@ -42,7 +41,6 @@ h1 {
   height: 2000px;
 }
 .HomePage td {
-  /* padding-top: 400px; */
   font-family: "Knewave", system-ui;
   font-weight: 400;
   font-style: normal;
@@ -53,8 +51,7 @@ h1 {
 .HomePage table {
   align-self: center;
   justify-self: center;
-  z-index: 100;
-  margin-top: -225px;
+  margin-top: -220px;
 }
 
 /* ---=== NAV BAR ===--- */
@@ -68,7 +65,7 @@ h1 {
   align-items: self-start;
   padding: 0 40px;
   padding-top: 30px;
-  transition: transform 0.3s ease;
+  transition: transform 0.8s ease;
   z-index: 10;
   justify-content: space-between;
 
@@ -92,7 +89,7 @@ h1 {
   text-decoration: none;
   font-size: 20px;
   font-family: "Knewave", system-ui;
-  font-weight: 400;
+  font-weight: 600;
   font-style: normal;
 }
 
@@ -100,8 +97,8 @@ h1 {
   color: #f3e8d4;
 }
 
-.navbar li a:active {
-  color: #f3e8d4;
+.navbar a.active {
+  color: #F3E8D4;
 }
 
 /* When scrolling down */

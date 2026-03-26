@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import logo from "../assets/Logo.svg";
 
 
@@ -32,24 +32,24 @@ const NavBar = () => {
   return (
     <>
       <nav className={showNav ? "navbar show" : "navbar hide"}>
-        <Link to="/" > 
+        <NavLink to="/" > 
         <img src={logo} alt="Exotic Scoops logo" width="100" height="100" />
-      </Link>
+      </NavLink>
       <ul className="navLinks">
         <li>
-          <Link to="/shop">Shop</Link>
+          <NavLink to="/shop">SHOP</NavLink>
         </li>
         <li>
-          <Link to="/locations">Locations</Link>
+          <NavLink to="/locations">LOCATIONS</NavLink>
         </li>
         <li>
-          <Link to="/aboutUs">About Us</Link>
+          <NavLink to="/aboutUs">ABOUT US</NavLink>
         </li>
         <li>
-          <Link to="/contactUs">Contact Us</Link>
+          <NavLink to="/contactUs">CONTACT US</NavLink>
         </li>
         <li>
-          <Link to="/citations">Citations</Link>
+          <NavLink to="/citations">CITATIONS</NavLink>
         </li>
       </ul>
       </nav>
