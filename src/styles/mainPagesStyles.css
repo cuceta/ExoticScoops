@@ -1,0 +1,115 @@
+h1 {
+  padding-top: 400px;
+  color: black;
+  font-weight: bolder;
+  align-self: center;
+}
+
+/* ---=== HOME PAGE ===--- */
+.HomePage img {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 600px;
+  margin-top: 55px;
+  position: absolute;
+  display: flex;
+  z-index: 0;
+}
+
+
+.HomePage h1{
+  color: #c74777;
+  text-shadow: 6px 6px 0px #F3E8D4;
+}
+
+.topText{
+  transform: translateX(0%);
+}
+
+.HomePage h2{
+  color:#51371c;
+  font-family: "Kodchasan", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 32px;
+  justify-self: center;
+  margin-top: -125px;
+  transform: translateX(0%)
+}
+
+.HomePage {
+  height: 2000px;
+}
+.HomePage td {
+  /* padding-top: 400px; */
+  font-family: "Knewave", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 70px;
+  margin: 20px 0;
+}
+
+.HomePage table {
+  align-self: center;
+  justify-self: center;
+  z-index: 100;
+  margin-top: -225px;
+}
+
+/* ---=== NAV BAR ===--- */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  align-items: self-start;
+  padding: 0 40px;
+  padding-top: 30px;
+  transition: transform 0.3s ease;
+  z-index: 10;
+  justify-content: space-between;
+
+  /* SVG background */
+  background-image: url("../assets/navBarBackground.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.navbar ul {
+  display: inline-flex;
+  padding-right: 70px;
+  padding-top: 20px;
+  gap: 50px;
+  list-style: none;
+  right: end;
+}
+
+.navbar li a {
+  color: #51371c;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Knewave", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.navbar li a:hover {
+  color: #f3e8d4;
+}
+
+.navbar li a:active {
+  color: #f3e8d4;
+}
+
+/* When scrolling down */
+.navbar.hide {
+  transform: translateY(-100%);
+}
+
+/* When scrolling up */
+.navbar.show {
+  transform: translateY(0);
+}
