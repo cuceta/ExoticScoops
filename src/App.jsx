@@ -7,6 +7,7 @@ import Locations from "./pages/locationsPage"
 import AboutUs from "./pages/aboutUsPage";
 import ContactUs from "./pages/contactUsPage";
 import Citations from "./pages/citationPage";
+import Footer from "./components/footer";
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
         <Route path="/contactUs" element={<ContactUs />} />
         <Route path="/citations" element={<Citations />} />
       </Routes>
+      <Footer/>
     </Router>
     </>
   );

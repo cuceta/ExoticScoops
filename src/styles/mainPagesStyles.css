@@ -1,10 +1,12 @@
+/* ---=== ALL PAGES ===--- */
+
 h1 {
   padding-top: 400px;
-  color: black;
   font-weight: bolder;
   align-self: center;
 }
-.pageTitle{
+
+.pageTitle {
   color: #c74777;
   text-shadow: 6px 6px 0px #f3e8d4;
   font-family: "Knewave", system-ui;
@@ -45,7 +47,8 @@ h1 {
 
 .HomePage {
   /* height: 2000px; */
-  padding: 0 0;
+    padding-bottom: 220px;
+
 }
 
 .HomePage td {
@@ -91,6 +94,7 @@ h1 {
   left: 0;
   position: absolute;
   display: flex;
+  padding-bottom: 200px;
   /* padding: 0 40px; */
 }
 
@@ -149,4 +153,80 @@ h1 {
 /* When scrolling up */
 .navbar.show {
   transform: translateY(0);
+}
+
+/* ---=== FOOTER ===--- */
+
+.footer {
+  position: fixed;
+  left: 0;
+  width: 105%;
+  bottom: 0;
+  height: 250px;
+  z-index: 1000;
+  background-image: url("../assets/footerBackground.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 40px 0; */
+}
+
+/* Left links */
+.footerLeft {
+  margin-left: 10px;
+  align-self: flex-end;
+}
+
+.footerLeft ul {
+  list-style: none;
+  display: inline-flex;
+  gap: 40px;
+
+}
+
+.footerLeft li a{
+  font-family: "Knewave", system-ui;
+  text-decoration: none;
+  color: #51371c;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.footerLeft li a:hover{
+    color: #f3e8d4;
+
+}
+
+/* Center logo */
+.footerCenter {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 20px;
+  padding-bottom: 40px;
+}
+
+.footerCenter img {
+  width: 60px;
+}
+
+/* Right social icons */
+.footerRight {
+  align-self: flex-end;
+  margin-right: 120px;
+  right: 0;
+}
+
+.footerRight ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+.footerRight img {
+  width: 40px;
+  height: 40px;
 }
