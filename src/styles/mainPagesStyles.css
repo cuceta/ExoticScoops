@@ -19,6 +19,11 @@ h1 {
 }
 
 /* ---=== HOME PAGE ===--- */
+
+.HomePage {
+  padding-bottom: 220px;
+}
+
 .HomePage img {
   top: 0;
   left: 0;
@@ -45,11 +50,7 @@ h1 {
   transform: translateX(0%);
 }
 
-.HomePage {
-  /* height: 2000px; */
-    padding-bottom: 220px;
 
-}
 
 .HomePage td {
   font-family: "Knewave", system-ui;
@@ -162,16 +163,27 @@ h1 {
   left: 0;
   width: 105%;
   bottom: 0;
-  height: 250px;
+  height: 180px;
   z-index: 1000;
   background-image: url("../assets/footerBackground.png");
   background-size: cover;
   background-repeat: no-repeat;
-  padding-bottom: 50px;
+  padding-bottom: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   /* padding: 40px 0; */
+  transition: transform 0.6s ease;
+}
+
+/* Hidden */
+.footer.hideFooter {
+  transform: translateY(100%);
+}
+
+/* Visible */
+.footer.showFooter {
+  transform: translateY(0);
 }
 
 /* Left links */
@@ -184,7 +196,6 @@ h1 {
   list-style: none;
   display: inline-flex;
   gap: 40px;
-
 }
 
 .footerLeft li a{
@@ -206,7 +217,7 @@ h1 {
   left: 50%;
   transform: translateX(-50%);
   bottom: 20px;
-  padding-bottom: 40px;
+  padding-bottom: 10px;
 }
 
 .footerCenter img {

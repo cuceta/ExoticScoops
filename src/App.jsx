@@ -1,5 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
+
 import Home from "./pages/homePage";
 import NavBar from "./components/navBar";
 import Shop from "./pages/shopPage";
@@ -8,6 +10,7 @@ import AboutUs from "./pages/aboutUsPage";
 import ContactUs from "./pages/contactUsPage";
 import Citations from "./pages/citationPage";
 import Footer from "./components/footer";
+
 
 const App = () => {
   return (
