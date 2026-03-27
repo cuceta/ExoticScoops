@@ -6,8 +6,8 @@ const Locations = () => {
     return (
         <>
         <section className="LocationsPage" id="LocationsPage">
-        <h1>
-            Locations page
+        <h1 className="pageTitle" >
+            Locations 
         </h1>
 </section>
         </>   

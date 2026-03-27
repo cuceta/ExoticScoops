@@ -6,8 +6,8 @@ const Citations = () => {
     return (
         <>
         <section className="CitationsPage" id="CitationsPage">
-        <h1>
-            Citations page
+        <h1 className="pageTitle" >
+            Citations 
         </h1>
 </section>
         </>   

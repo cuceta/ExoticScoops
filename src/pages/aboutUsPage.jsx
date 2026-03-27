@@ -6,8 +6,8 @@ const AboutUs = () => {
     return (
         <>
         <section className="AboutUsPage" id="AboutUsPage">
-        <h1>
-            About Us page
+        <h1 className="pageTitle" >
+            About Us
         </h1>
 </section>
         </>   

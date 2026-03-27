@@ -6,8 +6,8 @@ const Shop = () => {
     return (
         <>
         <section className="ShopPage" id="ShopPage">
-        <h1>
-            Shop page
+        <h1 className="pageTitle" >
+            Shop 
         </h1>
 </section>
         </>   

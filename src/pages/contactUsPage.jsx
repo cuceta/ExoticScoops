@@ -6,8 +6,8 @@ const ContactUs = () => {
     return (
         <>
         <section className="ContactUsPage" id="ContactUsPage">
-        <h1>
-            Contact Us page
+        <h1 className="pageTitle" >
+            Contact Us 
         </h1>
 </section>
         </>   

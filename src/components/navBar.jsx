@@ -31,6 +31,7 @@ const NavBar = () => {
 
   return (
     <>
+      {/* <!-- advanced HTML5 element ||NAV|| --> */}
       <nav className={showNav ? "navbar show" : "navbar hide"}>
         <NavLink to="/" > 
         <img src={logo} alt="Exotic Scoops logo" width="100" height="100" />
