@@ -29,7 +29,7 @@ const Home = () => {
             </td>
           </tr>
         </table>
-        <h4>where every scoop is an adventure</h4>
+        <h4 className="PageSubheading" style={{marginTop: "-70px"}}>where every scoop is an adventure</h4>
 
         <div className="intro">
           {/* <!-- Paragraph formatting ||<p>|| tag --> */}

@@ -99,6 +99,99 @@ h1 {
   /* padding: 0 40px; */
 }
 
+/* ---===  SHOP PAGE ===--- */
+.ShopPage h4, .LocationsPage h4, .ContactUsPage h4, .CitationsPage h4, .AboutUsPage h4{
+  color: #51371c;
+  font-family: "Kodchasan", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 28px;
+  justify-self: center;
+  margin-top: -50px;
+  transform: translateX(0%);} 
+
+/* ---===  LOCATIONS PAGE ===--- */
+.locationContainerCream {
+  width: 90%;
+  background-color: #F3E8D4;
+  justify-self: center;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 80px;
+
+
+  /* height: 300px; */
+}
+
+.locationImage{
+  order: 1;
+  margin: 20px; 
+}
+
+.locationInfo{
+  order: 2;
+  
+  display: flex;
+  flex-direction: column;
+
+  align-items: flex-start;
+  justify-content: flex-start;
+
+  gap: 50px;
+
+  margin: 20px;
+  margin-top: 0;
+
+}
+
+.locationInfo h5{
+  color: #c74777;
+  font-family: "Knewave", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 48px;
+  margin: 0;
+
+}
+
+.locationInfo p{
+  font-family: "Kodchasan", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #51371c;
+  margin: 0;
+}
+
+.locationInfo button {
+  background-color: #EFAFC7;
+  color:#51371c;
+  padding: 10px 20px;
+  border: 0;
+  border-radius: 10px;
+  font-family: "Kodchasan", sans-serif;
+  font-weight: 700;
+}
+
+.locationInfo button:hover{
+  background-color: #51371c;
+}
+
+.locationInfo a{
+  color: #51371c;
+}
+
+.locationInfo a:hover{
+  color: #EFAFC7
+}
+/* ---===  CONTACT US PAGE ===--- */
+
+/* ---===  ABOUT US PAGE ===--- */
+
+/* ---===  CITATIONS PAGE ===--- */
+
 /* ---=== NAV BAR ===--- */
 .navbar {
   position: fixed;

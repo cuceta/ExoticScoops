@@ -9,6 +9,9 @@ const AboutUs = () => {
         <h1 className="pageTitle" >
             About Us
         </h1>
+        <h4>
+            Learn all about us
+        </h4>
 </section>
         </>   
     );

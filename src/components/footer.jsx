@@ -14,7 +14,7 @@ const Footer = () => {
   useEffect(() => {
     const handleScroll = () => {
       const scrollPosition = window.scrollY + window.innerHeight;
-      const pageHeight = document.body.scrollHeight;
+      const pageHeight = document.body.scrollHeight; 
 
       const reachedBottom = scrollPosition >= pageHeight || pageHeight <= window.innerHeight;
 
