@@ -7,6 +7,7 @@ import OrlandoImage from "../assets/locationImages/orlandoShop.png"
 import MiamiImage from "../assets/locationImages/miamiShop.png"
 import NashvilleImage from "../assets/locationImages/nashvilleShop.png"
 import LosAngelesImage from "../assets/locationImages/losAngelesShop.png"
+import Footer from "../components/footer"
 
 
 
@@ -129,7 +130,9 @@ const Locations = () => {
         </div>
 
         {/* <div style={{height:"400px"}}> </div> */}
+        
 </section>
+<Footer/>
         </>   
     );
 }

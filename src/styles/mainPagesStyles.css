@@ -12,7 +12,7 @@ h1 {
   font-family: "Knewave", system-ui;
   font-weight: 400;
   font-style: normal;
-  font-size: 70px;
+  font-size: 96px;
   align-self: center;
   justify-self: center;
   margin-top: -220px;
@@ -50,8 +50,6 @@ h1 {
   transform: translateX(0%);
 }
 
-
-
 .HomePage td {
   font-family: "Knewave", system-ui;
   font-weight: 400;
@@ -87,6 +85,33 @@ h1 {
   text-decoration: underline wavy;
 }
 
+.introButtonsContainer {
+  display: flex;
+  gap: 30px;
+}
+
+.intro button {
+  background-color: #efafc7;
+  color: #51371c;
+  padding: 10px 20px;
+  border: 0;
+  border-radius: 10px;
+  font-family: "Kodchasan", sans-serif;
+  font-weight: 700;
+}
+
+.intro button:hover {
+  background-color: #51371c;
+}
+
+.intro a {
+  color: #51371c;
+}
+
+.intro a:hover {
+  color: #efafc7;
+}
+
 .featuredFlavors {
   background-color: #c74777;
   width: 100%;
@@ -100,7 +125,11 @@ h1 {
 }
 
 /* ---===  SHOP PAGE ===--- */
-.ShopPage h4, .LocationsPage h4, .ContactUsPage h4, .CitationsPage h4, .AboutUsPage h4{
+.ShopPage h4,
+.LocationsPage h4,
+.ContactUsPage h4,
+.CitationsPage h4,
+.AboutUsPage h4 {
   color: #51371c;
   font-family: "Kodchasan", sans-serif;
   font-weight: 500;
@@ -108,12 +137,13 @@ h1 {
   font-size: 28px;
   justify-self: center;
   margin-top: -50px;
-  transform: translateX(0%);} 
+  transform: translateX(0%);
+}
 
 /* ---===  LOCATIONS PAGE ===--- */
 .locationContainerCream {
   width: 90%;
-  background-color: #F3E8D4;
+  background-color: #f3e8d4;
   justify-self: center;
   border-radius: 30px;
   display: flex;
@@ -121,19 +151,16 @@ h1 {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 80px;
-
-
-  /* height: 300px; */
 }
 
-.locationImage{
+.locationImage {
   order: 1;
-  margin: 20px; 
+  margin: 20px;
 }
 
-.locationInfo{
+.locationInfo {
   order: 2;
-  
+
   display: flex;
   flex-direction: column;
 
@@ -144,20 +171,18 @@ h1 {
 
   margin: 20px;
   margin-top: 0;
-
 }
 
-.locationInfo h5{
+.locationInfo h5 {
   color: #c74777;
   font-family: "Knewave", system-ui;
   font-weight: 400;
   font-style: normal;
   font-size: 48px;
   margin: 0;
-
 }
 
-.locationInfo p{
+.locationInfo p {
   font-family: "Kodchasan", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -166,8 +191,8 @@ h1 {
 }
 
 .locationInfo button {
-  background-color: #EFAFC7;
-  color:#51371c;
+  background-color: #efafc7;
+  color: #51371c;
   padding: 10px 20px;
   border: 0;
   border-radius: 10px;
@@ -175,20 +200,123 @@ h1 {
   font-weight: 700;
 }
 
-.locationInfo button:hover{
+.locationInfo button:hover {
   background-color: #51371c;
 }
 
-.locationInfo a{
+.locationInfo a {
   color: #51371c;
 }
 
-.locationInfo a:hover{
-  color: #EFAFC7
+.locationInfo a:hover {
+  color: #efafc7;
 }
 /* ---===  CONTACT US PAGE ===--- */
 
 /* ---===  ABOUT US PAGE ===--- */
+
+.missionAndVision {
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+
+  padding: 20px 60px;
+  margin-bottom: 50px;
+}
+
+.mission,
+.vision {
+  background-color: #f3e8d4;
+  border-radius: 30px;
+  width: 100%;
+  padding: 40px 40px;
+}
+
+.mission h5,
+.vision h5 {
+  color: #c74777;
+  font-family: "Knewave", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 36px;
+  margin: 0;
+}
+
+.missionAndVision p {
+  font-family: "Kodchasan", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  font-style: normal;
+  color: #51371c;
+  margin: 0;
+}
+
+.ourStory , .charities{
+  background-color: #c74777;
+  margin-left: -0.6%;
+  margin-right: -0.6%;
+  padding: 0 20px;
+  padding-bottom: 30px;
+}
+
+.ourStory h4, .charities h4 {
+  padding-top: 20px;
+  color: #fffff1;
+  font-family: "Knewave", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 95px;
+  margin: 0;
+  text-shadow: 1.5px 1.5px 0px #efafc7;
+}
+
+.ourStory p , .charities p ,.charities li{
+  font-family: "Kodchasan", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  font-style: normal;
+  color: #fffff1;
+  margin: 30px 0;
+}
+
+.storyContent{
+  display: flex;
+  flex-direction: row;
+  gap:60px;
+  
+
+}
+
+
+.storyText, .storyPicture{
+  padding: 20px;
+}
+
+.charities{ 
+  background-color: #f3e8d4;
+  /* margin-left: -0.6%;
+  margin-right: -0.6%; */
+
+}
+
+.charitiesContent{
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+  padding: 30px;
+  justify-content: space-between;
+}
+
+.charitiesContent div{
+  width: 50%;
+}
+
+.charities h4, .charities p, .charities li {
+  color:#51371c;
+}
+
+
+
 
 /* ---===  CITATIONS PAGE ===--- */
 
@@ -256,9 +384,10 @@ h1 {
   left: 0;
   width: 105%;
   bottom: 0;
-  height: 180px;
+  height: 120px;
   z-index: 1000;
-  background-image: url("../assets/footerBackground.png");
+  /* background-image: url("../assets/footerBackground.png"); */
+  background-color: #efafc7;
   background-size: cover;
   background-repeat: no-repeat;
   padding-bottom: 20px;
@@ -291,7 +420,7 @@ h1 {
   gap: 40px;
 }
 
-.footerLeft li a{
+.footerLeft li a {
   font-family: "Knewave", system-ui;
   text-decoration: none;
   color: #51371c;
@@ -299,9 +428,8 @@ h1 {
   cursor: pointer;
 }
 
-.footerLeft li a:hover{
-    color: #f3e8d4;
-
+.footerLeft li a:hover {
+  color: #f3e8d4;
 }
 
 /* Center logo */

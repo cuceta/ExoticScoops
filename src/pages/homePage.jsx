@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/mainPagesStyles.css";
 import homePageDrip from "../assets/homePageDrip.png";
+// import introImage from "../assets/introSectionImage.png"
 
 const Home = () => {
   return (
@@ -43,7 +44,18 @@ const Home = () => {
             Whether you&#39;re in the mood for something fruity, floral, or with a
             little <br></br> kick, there&#39;s always a new flavor experience waiting for you.
           </p>
+          <div className="introButtonsContainer">
+            <button>
+              <a href="/shop">Shop Our Flavors</a>
+            </button>
+            <button>
+              <a href="/locations">Find a Store Near You</a>
+            </button>
+          </div>
+
+
         </div>
+
 
         <div className="featuredFlavors">
 

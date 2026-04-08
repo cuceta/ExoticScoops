@@ -9,6 +9,7 @@ const ContactUs = () => {
         <h1 className="pageTitle" >
             Contact Us 
         </h1>
+        <h4>Let us know what you think of our flavors</h4>
 </section>
         </>   
     );
