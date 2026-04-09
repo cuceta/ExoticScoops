@@ -25,7 +25,7 @@ h1 {
   padding-bottom: 220px;
 }
 
-.HomePage img {
+.drip img {
   top: 0;
   left: 0;
   width: 100%;
@@ -116,14 +116,151 @@ h1 {
 .featuredFlavors {
   background-color: #c74777;
   width: 100%;
-  height: 400px;
+  /* height: 400px; */
   margin: 0 0;
   left: 0;
   position: absolute;
-  display: flex;
-  padding-bottom: 200px;
+  padding-bottom: 400px;
   /* padding: 0 40px; */
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
+
+.featuredFlavors h2{
+  padding-top: 40px;
+  color: #fffff1;
+  font-family: "Knewave", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 64px;
+  margin: 0;
+  text-shadow: 1.5px 1.5px 0px #efafc7;  
+}
+.carouselWrapper {
+  position: relative;
+  width: 150%;
+  margin-top: 40px;
+}
+
+.carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 400px;
+}
+
+.carouselCard {
+  position: absolute;
+  width: 220px;
+  transition: all 0.4s ease;
+
+  background: #fffff1;
+  border-radius: 25px;
+  padding: 20px;
+  text-align: center;
+}
+
+.carouselCard img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.carouselCard.active {
+  transform: translateX(0) scale(1.1);
+  z-index: 3;
+}
+
+.carouselCard.side {
+  transform: scale(0.85);
+  opacity: 0.7;
+  z-index: 2;
+}
+
+.carouselCard.side:nth-child(odd) {
+  transform: translateX(-550px) scale(0.85);
+}
+
+.carouselCard.side:nth-child(even) {
+  transform: translateX(550px) scale(0.85);
+}
+
+.carouselCard.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.carouselBtn {
+  /* background: yellow !important; */
+
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+
+  width: 55px;
+  height: 55px;
+
+  background: #F3E8D4;
+  border: 4px solid #c74777;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 0;
+  /* keeps image inside circle */
+  /* overflow: hidden;  */
+
+  cursor: pointer;
+  z-index: 5;
+}
+
+.carouselBtn img{
+  /* background: red !important; */
+
+  width: 40px;       
+  height: 40px;
+  object-fit: contain;
+  pointer-events: none;
+
+  display: block;
+  z-index: 11;
+
+  /* filter: brightness(0); */
+}
+
+.carouselBtn.left {
+  left: calc(50% - 400px);
+}
+
+.carouselBtn.right {
+  right: calc(50% - 400px);
+}
+.dots {
+  margin-top: 30px;
+}
+
+.dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+
+  background: #F3E8D4;
+  border-radius: 50%;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.dot.active {
+  opacity: 1;
+  transform: scale(1.3);
+}
+
 
 /* ---===  EXPLORE FLAVORS PAGE ===--- */
 .flavorsPage h4,
@@ -143,14 +280,14 @@ h1 {
 
 .flavorGrid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   gap: 30px;
   width: 90%;
   margin: 40px auto;
 }
 
 .flavorCard {
-  background: #F3E8D4;
+  background: #fffff1;
   border-radius: 20px;
   padding: 20px;
   text-align: center;
@@ -172,6 +309,11 @@ h1 {
   border: none;
   padding: 10px 15px;
   border-radius: 10px;
+}
+
+.flavorCard button:hover{
+  background-color: #51371c;
+  color: #c74777;
 }
 
 .modalOverlay {

@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "name": "Mango Chili Fusion",
+    "name": "1",
     "image": "/images/mango.jpg",
     "shortDesc": "Sweet mango with a spicy kick",
     "ingredients": "Mango puree, cream, sugar, chili flakes",
@@ -10,7 +10,7 @@
   },
   {
     "id": 2,
-    "name": "Matcha Lavender Dream",
+    "name": "2",
     "image": "/images/matcha.jpg",
     "shortDesc": "Earthy matcha with floral lavender",
     "ingredients": "Matcha, lavender extract, cream, sugar",
@@ -18,8 +18,8 @@
     "flavorProfile": "Earthy, floral, smooth"
   },
   {
-    "id": 1,
-    "name": "Mango Chili Fusion",
+    "id": 3,
+    "name": "3",
     "image": "/images/mango.jpg",
     "shortDesc": "Sweet mango with a spicy kick",
     "ingredients": "Mango puree, cream, sugar, chili flakes",
@@ -27,8 +27,8 @@
     "flavorProfile": "Sweet, spicy, tropical"
   },
   {
-    "id": 2,
-    "name": "Matcha Lavender Dream",
+    "id": 4,
+    "name": "4",
     "image": "/images/matcha.jpg",
     "shortDesc": "Earthy matcha with floral lavender",
     "ingredients": "Matcha, lavender extract, cream, sugar",
@@ -36,8 +36,8 @@
     "flavorProfile": "Earthy, floral, smooth"
   },
   {
-    "id": 1,
-    "name": "Mango Chili Fusion",
+    "id": 5,
+    "name": "5",
     "image": "/images/mango.jpg",
     "shortDesc": "Sweet mango with a spicy kick",
     "ingredients": "Mango puree, cream, sugar, chili flakes",
@@ -45,8 +45,8 @@
     "flavorProfile": "Sweet, spicy, tropical"
   },
   {
-    "id": 2,
-    "name": "Matcha Lavender Dream",
+    "id": 6,
+    "name": "6",
     "image": "/images/matcha.jpg",
     "shortDesc": "Earthy matcha with floral lavender",
     "ingredients": "Matcha, lavender extract, cream, sugar",
@@ -54,8 +54,8 @@
     "flavorProfile": "Earthy, floral, smooth"
   },
   {
-    "id": 1,
-    "name": "Mango Chili Fusion",
+    "id": 7,
+    "name": "7",
     "image": "/images/mango.jpg",
     "shortDesc": "Sweet mango with a spicy kick",
     "ingredients": "Mango puree, cream, sugar, chili flakes",
@@ -63,8 +63,8 @@
     "flavorProfile": "Sweet, spicy, tropical"
   },
   {
-    "id": 2,
-    "name": "Matcha Lavender Dream",
+    "id": 8,
+    "name": "8",
     "image": "/images/matcha.jpg",
     "shortDesc": "Earthy matcha with floral lavender",
     "ingredients": "Matcha, lavender extract, cream, sugar",

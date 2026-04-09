@@ -10,7 +10,7 @@ const Shop = () => {
     <>
       <section className="flavorsPage" id="FlavorsPage">
         <h1 className="pageTitle">Explore Our Flavors</h1>
-        <h4>Indulge in exotic flavors in the comfort of your own home</h4>
+        <h4>Check out our exotic flavors and see if any sound yummy</h4>
 
         <div className="flavorGrid">
           {flavors.map((flavor) => (
