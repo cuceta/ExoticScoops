@@ -12,10 +12,11 @@ h1 {
   font-family: "Knewave", system-ui;
   font-weight: 400;
   font-style: normal;
-  font-size: 96px;
+  font-size: 160px;
   align-self: center;
   justify-self: center;
   margin-top: -220px;
+  margin-bottom: 30px;
 }
 
 /* ---=== HOME PAGE ===--- */
@@ -124,8 +125,8 @@ h1 {
   /* padding: 0 40px; */
 }
 
-/* ---===  SHOP PAGE ===--- */
-.ShopPage h4,
+/* ---===  EXPLORE FLAVORS PAGE ===--- */
+.flavorsPage h4,
 .LocationsPage h4,
 .ContactUsPage h4,
 .CitationsPage h4,
@@ -138,6 +139,64 @@ h1 {
   justify-self: center;
   margin-top: -50px;
   transform: translateX(0%);
+}
+
+.flavorGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  width: 90%;
+  margin: 40px auto;
+}
+
+.flavorCard {
+  background: #F3E8D4;
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.flavorCard:hover {
+  transform: translateY(-5px);
+}
+
+.flavorCard img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.flavorCard button {
+  margin-top: 10px;
+  background-color: #EFAFC7;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  backdrop-filter: blur(8px);
+  background: rgba(0,0,0,0.3);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  z-index: 999;
+}
+
+.modalContent {
+  background: #fff;
+  padding: 30px;
+  border-radius: 20px;
+  width: 400px;
+  max-width: 90%;
 }
 
 /* ---===  LOCATIONS PAGE ===--- */

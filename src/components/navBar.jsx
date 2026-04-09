@@ -38,7 +38,7 @@ const NavBar = () => {
       </NavLink>
       <ul className="navLinks">
         <li>
-          <NavLink to="/shop">SHOP</NavLink>
+          <NavLink to="/flavors">EXPLORE FLAVORS</NavLink>
         </li>
         <li>
           <NavLink to="/locations">LOCATIONS</NavLink>
