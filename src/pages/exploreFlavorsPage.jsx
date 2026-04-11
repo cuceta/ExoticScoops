@@ -25,6 +25,7 @@ const Shop = () => {
             </div>
           ))}
         </div>
+        <Footer/>
       </section>
 
       {/* MODAL */}
@@ -44,7 +45,6 @@ const Shop = () => {
         </div>
       )}
 
-      <Footer />
     </>
   );
 };

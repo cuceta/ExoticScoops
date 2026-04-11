@@ -1,8 +1,8 @@
 [
   {
     "id": 1,
-    "name": "1",
-    "image": "/images/mango.jpg",
+    "name": "Brownie Salted Caramel",
+    "image": "src/assets/flavors/brownieCaramel.png",
     "shortDesc": "Sweet mango with a spicy kick",
     "ingredients": "Mango puree, cream, sugar, chili flakes",
     "allergens": "Dairy",
@@ -10,17 +10,17 @@
   },
   {
     "id": 2,
-    "name": "2",
-    "image": "/images/matcha.jpg",
-    "shortDesc": "Earthy matcha with floral lavender",
-    "ingredients": "Matcha, lavender extract, cream, sugar",
+    "name": "Brownie Salted Caramel",
+    "image": "src/assets/flavors/brownieCaramel.png",
+    "shortDesc": "Sweet mango with a spicy kick",
+    "ingredients": "Mango puree, cream, sugar, chili flakes",
     "allergens": "Dairy",
-    "flavorProfile": "Earthy, floral, smooth"
+    "flavorProfile": "Sweet, spicy, tropical"
   },
   {
     "id": 3,
-    "name": "3",
-    "image": "/images/mango.jpg",
+    "name": "Brownie Salted Caramel",
+    "image": "src/assets/flavors/brownieCaramel.png",
     "shortDesc": "Sweet mango with a spicy kick",
     "ingredients": "Mango puree, cream, sugar, chili flakes",
     "allergens": "Dairy",

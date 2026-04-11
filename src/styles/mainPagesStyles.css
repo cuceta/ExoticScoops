@@ -1,4 +1,17 @@
 /* ---=== ALL PAGES ===--- */
+html, body {
+  height: 100%;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
 
 h1 {
   padding-top: 400px;
@@ -91,7 +104,7 @@ h1 {
   gap: 30px;
 }
 
-.intro button {
+.intro button, .carouselCard button, .flavorCard button, .modalContent button {
   background-color: #efafc7;
   color: #51371c;
   padding: 10px 20px;
@@ -101,17 +114,11 @@ h1 {
   font-weight: 700;
 }
 
-.intro button:hover {
+.intro button:hover,  .carouselCard button:hover, .flavorCard button:hover, .modalContent button:hover{
   background-color: #51371c;
-}
-
-.intro a {
-  color: #51371c;
-}
-
-.intro a:hover {
   color: #efafc7;
 }
+
 
 .featuredFlavors {
   background-color: #c74777;
@@ -120,12 +127,12 @@ h1 {
   margin: 0 0;
   left: 0;
   position: absolute;
-  padding-bottom: 400px;
+  padding-bottom: 40px;
   /* padding: 0 40px; */
 
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   flex-direction: column;
 }
 
@@ -139,9 +146,10 @@ h1 {
   margin: 0;
   text-shadow: 1.5px 1.5px 0px #efafc7;  
 }
+
 .carouselWrapper {
   position: relative;
-  width: 150%;
+  width: 100%;
   margin-top: 40px;
 }
 
@@ -150,23 +158,34 @@ h1 {
   justify-content: center;
   align-items: center;
   position: relative;
-  height: 400px;
+  height: 600px;
 }
 
 .carouselCard {
   position: absolute;
-  width: 220px;
+  /* width: 220px; */
   transition: all 0.4s ease;
 
   background: #fffff1;
   border-radius: 25px;
   padding: 20px;
   text-align: center;
+  /* background-color: red; */
+  /* margin: 0 200px; */
 }
 
 .carouselCard img {
-  width: 100%;
-  border-radius: 15px;
+  width: 400px;
+  height: 400px;
+  border-radius: 30px;
+
+}
+
+.carouselCard h3, .flavorCard h3{
+  font-family: "Kodchasan", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #51371c;
 }
 
 .carouselCard.active {
@@ -175,17 +194,17 @@ h1 {
 }
 
 .carouselCard.side {
-  transform: scale(0.85);
-  opacity: 0.7;
+  /* transform: scale(0.85); */
+  opacity: 1;
   z-index: 2;
 }
 
 .carouselCard.side:nth-child(odd) {
-  transform: translateX(-550px) scale(0.85);
+  transform: translateX(-1000px) scale(0.85);
 }
 
 .carouselCard.side:nth-child(even) {
-  transform: translateX(550px) scale(0.85);
+  transform: translateX(1000px) scale(0.85);
 }
 
 .carouselCard.hidden {
@@ -234,11 +253,11 @@ h1 {
 }
 
 .carouselBtn.left {
-  left: calc(50% - 400px);
+  left: calc(50% - 475px);
 }
 
 .carouselBtn.right {
-  right: calc(50% - 400px);
+  right: calc(50% - 475px);
 }
 .dots {
   margin-top: 30px;
@@ -299,22 +318,17 @@ h1 {
 }
 
 .flavorCard img {
-  width: 100%;
-  border-radius: 15px;
+  width: 380px;
+  height: 380px;
+  border-radius: 30px;
 }
 
-.flavorCard button {
-  margin-top: 10px;
-  background-color: #EFAFC7;
-  border: none;
-  padding: 10px 15px;
-  border-radius: 10px;
-}
-
-.flavorCard button:hover{
-  background-color: #51371c;
-  color: #c74777;
-}
+.flavorCard p{
+  font-family: "Kodchasan", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: #51371c;
+} 
 
 .modalOverlay {
   position: fixed;
@@ -334,11 +348,28 @@ h1 {
 }
 
 .modalContent {
-  background: #fff;
+  background: #fffff1;
+  font-family: "Kodchasan", sans-serif;
   padding: 30px;
   border-radius: 20px;
   width: 400px;
   max-width: 90%;
+}
+
+.modalContent h2{
+  font-family: "Kodchasan", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: #51371c;
+}
+
+.modalContent strong{
+  color:#c74777;
+}
+
+.modalContent p{
+  color:#51371c;
+  font-weight: 600;
 }
 
 /* ---===  LOCATIONS PAGE ===--- */
@@ -581,21 +612,20 @@ h1 {
 /* ---=== FOOTER ===--- */
 
 .footer {
-  position: fixed;
-  left: 0;
-  width: 105%;
-  bottom: 0;
+  /* width: 100%; */
+  z-index: 100;
   height: 120px;
-  z-index: 1000;
-  /* background-image: url("../assets/footerBackground.png"); */
   background-color: #efafc7;
+  margin-left: -0.6%;
+  margin-right: -0.6%;
   background-size: cover;
   background-repeat: no-repeat;
-  padding-bottom: 20px;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* padding: 40px 0; */
+
+  padding-bottom: 20px;
   transition: transform 0.6s ease;
 }
 

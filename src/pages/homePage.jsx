@@ -1,12 +1,15 @@
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import "../styles/mainPagesStyles.css";
 import homePageDrip from "../assets/homePageDrip.png";
 import flavors from "../data/flavors.json";
 import leftArrow from "../assets/leftArrow.svg";
 import rightArrow from "../assets/rightArrow.svg";
+import Footer from "../components/footer";
 
 const Home = () => {
   const [currentIndex, setCurrentIndex] = useState(1);
+  const navigate = useNavigate();
 
   const featured = flavors.slice(0, 7);
 
@@ -77,14 +80,15 @@ const Home = () => {
             waiting for you.
           </p>
           <div className="introButtonsContainer">
-            <button>
-              <a href="/shop">Explore Our Flavors</a>
+            <button onClick={() => navigate("/flavors")}>
+              Explore Our Flavors
             </button>
-            <button>
-              <a href="/locations">Find a Store Near You</a>
+            <button onClick={() => navigate("/locations")}>
+              Find a Store Near You
             </button>
           </div>
         </div>
+        {/* <Footer/> */}
 
         <div className="featuredFlavors">
           <h2>Featured and Seasonal Flavors</h2>
@@ -103,7 +107,9 @@ const Home = () => {
                 >
                   <img src={flavor.image} alt={flavor.name} />
                   <h3>{flavor.name}</h3>
-                  <button>Learn more</button>
+                  {/* <NavLink to="/flavors"> */}
+                    <button onClick={() => navigate("/flavors")}>Learn more</button>
+                  {/* </NavLink> */}
                 </div>
               ))}
             </div>
@@ -124,6 +130,8 @@ const Home = () => {
             ))}
           </div>
         </div>
+        
+        <Footer />
       </section>
     </>
   );
