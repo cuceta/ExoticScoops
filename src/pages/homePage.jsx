@@ -1,11 +1,13 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import "../styles/mainPagesStyles.css";
+
 import homePageDrip from "../assets/homePageDrip.png";
 import flavors from "../data/flavors.json";
 import leftArrow from "../assets/leftArrow.svg";
 import rightArrow from "../assets/rightArrow.svg";
 import Footer from "../components/footer";
+
+import "../styles/mainPagesStyles.css";
 
 const Home = () => {
   const [currentIndex, setCurrentIndex] = useState(1);

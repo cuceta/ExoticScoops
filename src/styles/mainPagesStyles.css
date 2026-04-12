@@ -178,6 +178,7 @@ h1 {
   width: 400px;
   height: 400px;
   border-radius: 30px;
+  object-fit: cover;
 
 }
 
@@ -321,6 +322,7 @@ h1 {
   width: 380px;
   height: 380px;
   border-radius: 30px;
+  object-fit: cover;
 }
 
 .flavorCard p{

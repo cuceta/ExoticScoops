@@ -1,146 +1,242 @@
 [
   {
     "id": 1,
-    "name": "Brownie Salted Caramel",
-    "image": "/flavors/brownieCaramel.png",
-    "shortDesc": "Sweet mango with a spicy kick",
-    "ingredients": "Mango puree, cream, sugar, chili flakes",
+    "name": "Matcha Green Tea",
+    "image": "/images/matcha.png",
+    "shortDesc": "Earthy and slightly bitter Japanese matcha flavor",
+    "ingredients": "Matcha powder, cream, milk, sugar",
     "allergens": "Dairy",
-    "flavorProfile": "Sweet, spicy, tropical"
+    "flavorProfile": "Earthy, bitter, smooth",
+    "availableAt": ["NYC", "LA", "Chicago"]
   },
   {
     "id": 2,
-    "name": "Brownie Salted Caramel",
-    "image": "src/assets/flavors/brownieCaramel.png",
-    "shortDesc": "Sweet mango with a spicy kick",
-    "ingredients": "Mango puree, cream, sugar, chili flakes",
+    "name": "Lavender Honey",
+    "image": "/images/lavender.png",
+    "shortDesc": "Floral lavender with sweet honey notes",
+    "ingredients": "Lavender extract, honey, cream, milk, sugar",
     "allergens": "Dairy",
-    "flavorProfile": "Sweet, spicy, tropical"
+    "flavorProfile": "Floral, sweet, aromatic",
+    "availableAt": ["Miami", "Orlando"]
   },
   {
     "id": 3,
-    "name": "Brownie Salted Caramel",
-    "image": "src/assets/flavors/brownieCaramel.png",
-    "shortDesc": "Sweet mango with a spicy kick",
-    "ingredients": "Mango puree, cream, sugar, chili flakes",
-    "allergens": "Dairy",
-    "flavorProfile": "Sweet, spicy, tropical"
+    "name": "Black Sesame",
+    "image": "/images/blacksesame.png",
+    "shortDesc": "Rich and nutty roasted sesame flavor",
+    "ingredients": "Black sesame paste, cream, milk, sugar",
+    "allergens": "Dairy, Sesame",
+    "flavorProfile": "Nutty, roasted, deep",
+    "availableAt": ["LA", "NYC"]
   },
   {
     "id": 4,
-    "name": "4",
-    "image": "/images/matcha.jpg",
-    "shortDesc": "Earthy matcha with floral lavender",
-    "ingredients": "Matcha, lavender extract, cream, sugar",
-    "allergens": "Dairy",
-    "flavorProfile": "Earthy, floral, smooth"
+    "name": "Saffron & Pistachio",
+    "image": "/images/saffron.png",
+    "shortDesc": "Luxurious saffron with crunchy pistachios",
+    "ingredients": "Saffron strands, pistachios, cream, milk, sugar",
+    "allergens": "Dairy, Nuts",
+    "flavorProfile": "Rich, aromatic, nutty",
+    "availableAt": ["Chicago", "NYC"]
   },
   {
     "id": 5,
-    "name": "5",
-    "image": "/images/mango.jpg",
-    "shortDesc": "Sweet mango with a spicy kick",
-    "ingredients": "Mango puree, cream, sugar, chili flakes",
+    "name": "Earl Grey & Lemon Zest",
+    "image": "/images/earlgrey.png",
+    "shortDesc": "Fragrant tea with bright citrus zest",
+    "ingredients": "Earl Grey tea, lemon zest, cream, milk, sugar",
     "allergens": "Dairy",
-    "flavorProfile": "Sweet, spicy, tropical"
+    "flavorProfile": "Citrus, aromatic, smooth",
+    "availableAt": ["Orlando", "Miami"]
   },
   {
     "id": 6,
-    "name": "6",
-    "image": "/images/matcha.jpg",
-    "shortDesc": "Earthy matcha with floral lavender",
-    "ingredients": "Matcha, lavender extract, cream, sugar",
+    "name": "Chili Chocolate",
+    "image": "/images/chilichocolate.png",
+    "shortDesc": "Rich chocolate with a spicy chili kick",
+    "ingredients": "Cocoa, chili flakes, cream, milk, sugar",
     "allergens": "Dairy",
-    "flavorProfile": "Earthy, floral, smooth"
+    "flavorProfile": "Sweet, spicy, bold",
+    "availableAt": ["LA", "Nashville"]
   },
   {
     "id": 7,
-    "name": "7",
-    "image": "/images/mango.jpg",
-    "shortDesc": "Sweet mango with a spicy kick",
-    "ingredients": "Mango puree, cream, sugar, chili flakes",
+    "name": "Rosewater & Cardamom",
+    "image": "/images/rosewater.png",
+    "shortDesc": "Floral rose with warm cardamom spice",
+    "ingredients": "Rosewater, cardamom, cream, milk, sugar",
     "allergens": "Dairy",
-    "flavorProfile": "Sweet, spicy, tropical"
+    "flavorProfile": "Floral, spicy, sweet",
+    "availableAt": ["NYC", "Chicago"]
   },
   {
     "id": 8,
-    "name": "8",
-    "image": "/images/matcha.jpg",
-    "shortDesc": "Earthy matcha with floral lavender",
-    "ingredients": "Matcha, lavender extract, cream, sugar",
+    "name": "Salted Caramel & Bourbon",
+    "image": "/images/caramelbourbon.png",
+    "shortDesc": "Buttery caramel with smoky bourbon",
+    "ingredients": "Caramel, bourbon, cream, milk, sugar, sea salt",
     "allergens": "Dairy",
-    "flavorProfile": "Earthy, floral, smooth"
+    "flavorProfile": "Sweet, smoky, salty",
+    "availableAt": ["Nashville", "Chicago"]
   },
   {
-    "id": 1,
-    "name": "Mango Chili Fusion",
-    "image": "/images/mango.jpg",
-    "shortDesc": "Sweet mango with a spicy kick",
-    "ingredients": "Mango puree, cream, sugar, chili flakes",
+    "id": 9,
+    "name": "Blueberry Basil",
+    "image": "/images/blueberry.png",
+    "shortDesc": "Fruity blueberries with herbal basil",
+    "ingredients": "Blueberries, basil, cream, milk, sugar",
     "allergens": "Dairy",
-    "flavorProfile": "Sweet, spicy, tropical"
+    "flavorProfile": "Fruity, herbal, fresh",
+    "availableAt": ["Miami", "LA"]
   },
   {
-    "id": 2,
-    "name": "Matcha Lavender Dream",
-    "image": "/images/matcha.jpg",
-    "shortDesc": "Earthy matcha with floral lavender",
-    "ingredients": "Matcha, lavender extract, cream, sugar",
+    "id": 10,
+    "name": "Goat Cheese & Fig",
+    "image": "/images/goatcheese.png",
+    "shortDesc": "Tangy cheese with sweet fig",
+    "ingredients": "Goat cheese, figs, cream, milk, sugar",
     "allergens": "Dairy",
-    "flavorProfile": "Earthy, floral, smooth"
+    "flavorProfile": "Tangy, sweet, creamy",
+    "availableAt": ["NYC", "Chicago"]
   },
   {
-    "id": 1,
-    "name": "Mango Chili Fusion",
-    "image": "/images/mango.jpg",
-    "shortDesc": "Sweet mango with a spicy kick",
-    "ingredients": "Mango puree, cream, sugar, chili flakes",
-    "allergens": "Dairy",
-    "flavorProfile": "Sweet, spicy, tropical"
+    "id": 11,
+    "name": "Coconut & Pandan",
+    "image": "/images/coconut.png",
+    "shortDesc": "Tropical coconut with vanilla-like pandan",
+    "ingredients": "Coconut milk, pandan extract, sugar",
+    "allergens": "None (may contain coconut)",
+    "flavorProfile": "Tropical, nutty, sweet",
+    "availableAt": ["Orlando", "Miami"]
   },
   {
-    "id": 2,
-    "name": "Matcha Lavender Dream",
-    "image": "/images/matcha.jpg",
-    "shortDesc": "Earthy matcha with floral lavender",
-    "ingredients": "Matcha, lavender extract, cream, sugar",
+    "id": 12,
+    "name": "Ube (Purple Yam)",
+    "image": "/images/ube.png",
+    "shortDesc": "Sweet and nutty purple yam flavor",
+    "ingredients": "Ube puree, cream, milk, sugar",
     "allergens": "Dairy",
-    "flavorProfile": "Earthy, floral, smooth"
+    "flavorProfile": "Sweet, nutty, creamy",
+    "availableAt": ["LA", "NYC"]
   },
   {
-    "id": 1,
-    "name": "Mango Chili Fusion",
-    "image": "/images/mango.jpg",
-    "shortDesc": "Sweet mango with a spicy kick",
-    "ingredients": "Mango puree, cream, sugar, chili flakes",
+    "id": 13,
+    "name": "Charcoal Vanilla",
+    "image": "/images/charcoal.png",
+    "shortDesc": "Classic vanilla with a smoky twist",
+    "ingredients": "Activated charcoal, vanilla, cream, milk, sugar",
     "allergens": "Dairy",
-    "flavorProfile": "Sweet, spicy, tropical"
+    "flavorProfile": "Smoky, sweet, smooth",
+    "availableAt": ["Chicago", "Nashville"]
   },
   {
-    "id": 2,
-    "name": "Matcha Lavender Dream",
-    "image": "/images/matcha.jpg",
-    "shortDesc": "Earthy matcha with floral lavender",
-    "ingredients": "Matcha, lavender extract, cream, sugar",
+    "id": 14,
+    "name": "Wasabi & White Chocolate",
+    "image": "/images/wasabi.png",
+    "shortDesc": "Creamy sweetness with a spicy kick",
+    "ingredients": "White chocolate, wasabi, cream, milk, sugar",
     "allergens": "Dairy",
-    "flavorProfile": "Earthy, floral, smooth"
+    "flavorProfile": "Sweet, spicy, bold",
+    "availableAt": ["LA", "NYC"]
   },
   {
-    "id": 1,
-    "name": "Mango Chili Fusion",
-    "image": "/images/mango.jpg",
-    "shortDesc": "Sweet mango with a spicy kick",
-    "ingredients": "Mango puree, cream, sugar, chili flakes",
+    "id": 15,
+    "name": "Peach & Rosemary",
+    "image": "/images/peach.png",
+    "shortDesc": "Juicy peach with herbal rosemary",
+    "ingredients": "Peaches, rosemary, cream, milk, sugar",
     "allergens": "Dairy",
-    "flavorProfile": "Sweet, spicy, tropical"
+    "flavorProfile": "Fruity, herbal, fresh",
+    "availableAt": ["Nashville", "Orlando"]
   },
   {
-    "id": 2,
-    "name": "Matcha Lavender Dream",
-    "image": "/images/matcha.jpg",
-    "shortDesc": "Earthy matcha with floral lavender",
-    "ingredients": "Matcha, lavender extract, cream, sugar",
+    "id": 16,
+    "name": "Olive Oil & Sea Salt",
+    "image": "/images/oliveoil.png",
+    "shortDesc": "Rich olive oil with a salty finish",
+    "ingredients": "Olive oil, cream, milk, sugar, sea salt",
     "allergens": "Dairy",
-    "flavorProfile": "Earthy, floral, smooth"
+    "flavorProfile": "Savory, rich, smooth",
+    "availableAt": ["Chicago", "NYC"]
+  },
+  {
+    "id": 17,
+    "name": "Guava & Cream Cheese",
+    "image": "/images/guava.png",
+    "shortDesc": "Tropical guava with tangy cream cheese",
+    "ingredients": "Guava puree, cream cheese, cream, sugar",
+    "allergens": "Dairy",
+    "flavorProfile": "Sweet, tangy, tropical",
+    "availableAt": ["Miami", "Orlando"]
+  },
+  {
+    "id": 18,
+    "name": "Pumpkin Spice Latte",
+    "image": "/images/pumpkin.png",
+    "shortDesc": "Classic fall spices with espresso",
+    "ingredients": "Pumpkin puree, espresso, cinnamon, cream, sugar",
+    "allergens": "Dairy",
+    "flavorProfile": "Spiced, sweet, warm",
+    "availableAt": ["Chicago", "Nashville"]
+  },
+  {
+    "id": 19,
+    "name": "Espresso & Chocolate Shavings",
+    "image": "/images/espresso.png",
+    "shortDesc": "Bold coffee with rich chocolate",
+    "ingredients": "Espresso, chocolate shavings, cream, sugar",
+    "allergens": "Dairy",
+    "flavorProfile": "Bold, rich, bittersweet",
+    "availableAt": ["NYC", "LA", "Miami"]
+  },
+  {
+    "id": 20,
+    "name": "Hibiscus & Pomegranate",
+    "image": "/images/hibiscus.png",
+    "shortDesc": "Tart and refreshing floral blend",
+    "ingredients": "Hibiscus, pomegranate, sugar, cream",
+    "allergens": "Dairy",
+    "flavorProfile": "Tart, fruity, floral",
+    "availableAt": ["Orlando", "NYC"]
+  },
+  {
+    "id": 21,
+    "name": "Butter Popcorn & Caramel Swirl",
+    "image": "/images/popcorn.png",
+    "shortDesc": "Sweet and savory nostalgic treat",
+    "ingredients": "Butter, caramel, cream, sugar",
+    "allergens": "Dairy",
+    "flavorProfile": "Sweet, salty, buttery",
+    "availableAt": ["Nashville", "Chicago"]
+  },
+  {
+    "id": 22,
+    "name": "Cucumber & Mint",
+    "image": "/images/cucumber.png",
+    "shortDesc": "Light and refreshing summer flavor",
+    "ingredients": "Cucumber, mint, cream, sugar",
+    "allergens": "Dairy",
+    "flavorProfile": "Fresh, cool, light",
+    "availableAt": ["Miami", "LA"]
+  },
+  {
+    "id": 23,
+    "name": "Strawberry Balsamic",
+    "image": "/images/strawberry.png",
+    "shortDesc": "Sweet berries with tangy balsamic",
+    "ingredients": "Strawberries, balsamic vinegar, cream, sugar",
+    "allergens": "Dairy",
+    "flavorProfile": "Sweet, tangy, bold",
+    "availableAt": ["NYC", "Chicago"]
+  },
+  {
+    "id": 24,
+    "name": "Pear & Gorgonzola",
+    "image": "/images/pear.png",
+    "shortDesc": "Sweet pear with sharp cheese",
+    "ingredients": "Pears, gorgonzola, cream, sugar",
+    "allergens": "Dairy",
+    "flavorProfile": "Sweet, savory, creamy",
+    "availableAt": ["Chicago", "Nashville"]
   }
 ]
