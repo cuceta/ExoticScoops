@@ -1,14 +1,12 @@
+
 import { NavLink } from "react-router-dom";
 
-import "../styles/mainPagesStyles.css";
-// import logo from "../assets/Logo.svg";
 import facebookLogo from "../assets/socialmediaLogos/facebooklogo.png";
-import instagramLogo from "../assets/socialmediaLogos/instagramlogo.png";
-import tiktokLogo from "../assets/socialmediaLogos/tiktoklogo.png";
+import  instagramLogo from "../assets/socialmediaLogos/instagramlogo.png";
+// import tiktokLogo from "../assets/locationImages/tiktoklogo.png";
 
 const Footer = () => {
-  return (
-    <footer className="footer">
+<section className="footer">
       <div className="footerLeft">
         <ul>
           <li>
@@ -52,13 +50,13 @@ const Footer = () => {
           </li>
           <li>
             <a href="https://www.tiktok.com/" target="_blank" rel="noreferrer">
-              <img src={tiktokLogo} alt="TikTok" />
+              {/* <img src={tiktokLogo} alt="TikTok" /> */}
             </a>
           </li>
         </ul>
       </div>
-    </footer>
-  );
-};
+    </section>
+
+}
 
 export default Footer;

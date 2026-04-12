@@ -444,7 +444,67 @@ h1 {
   color: #efafc7;
 }
 /* ---===  CONTACT US PAGE ===--- */
+.content{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding: 0 40px;
 
+
+  font-family: "Kodchasan", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.content div{
+  background-color: #F3E8D4;
+  width: 100%;
+  border-radius: 30px;
+  margin: 20px 20px;
+  padding: 20px;
+}
+
+.ContactUsPage h2{
+  font-family: "Knewave", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 48px;
+  color: #c74777;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.ContactUsPage p{
+  color: #51371c;
+}
+
+.ContactUsPage mark{
+  text-decoration: underline 2px solid #c74777;
+  background-color: transparent;
+}
+
+.ContactUsPage button{
+  background-color: #efafc7;
+  color: #51371c;
+  padding: 10px 20px;
+  border: 0;
+  border-radius: 10px;
+  font-family: "Kodchasan", sans-serif;
+  font-weight: 700;
+}
+
+.ContactUsPage button:hover{
+  background-color: #51371c;
+  color: #efafc7;
+}
+
+.ContactUsPage a{
+  color: #51371c;
+}
+
+.ContactUsPage a:hover{
+  color: #efafc7;
+}
 /* ---===  ABOUT US PAGE ===--- */
 
 .missionAndVision {
