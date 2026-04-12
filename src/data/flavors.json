@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Brownie Salted Caramel",
-    "image": "public/flavors/brownieCaramel.png",
+    "image": "/flavors/brownieCaramel.png",
     "shortDesc": "Sweet mango with a spicy kick",
     "ingredients": "Mango puree, cream, sugar, chili flakes",
     "allergens": "Dairy",
