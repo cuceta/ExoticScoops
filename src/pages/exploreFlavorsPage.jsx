@@ -39,6 +39,7 @@ const Shop = () => {
             <p><strong>Ingredients:</strong> {selectedFlavor.ingredients}</p>
             <p><strong>Allergens:</strong> {selectedFlavor.allergens}</p>
             <p><strong>Flavor Profile:</strong> {selectedFlavor.flavorProfile}</p>
+            <p><strong>Available at: </strong> {selectedFlavor.availableAt.join(", ")}</p>
 
             <button onClick={() => setSelectedFlavor(null)}>Close</button>
           </div>
