@@ -5,7 +5,7 @@ import homePageDrip from "../assets/homePageDrip.png";
 import flavors from "../data/flavors.json";
 import leftArrow from "../assets/leftArrow.svg";
 import rightArrow from "../assets/rightArrow.svg";
-import Footer from "../components/footer";
+import logo from "/images/logo.svg";
 
 import "../styles/mainPagesStyles.css";
 
@@ -70,6 +70,7 @@ const Home = () => {
 
         <div className="intro">
           {/* <!-- Paragraph formatting ||<p>|| tag --> */}
+          <div>
           <p>
             {/* <!-- Character formatting ||<ins>|| tag --> */}
             Ice cream you love given a <ins>exotic</ins> twist inspired by
@@ -88,6 +89,10 @@ const Home = () => {
             <button onClick={() => navigate("/locations")}>
               Find a Store Near You
             </button>
+          </div>
+          </div>
+          <div>
+            <img src={logo} alt="Exotic Scoops logo" width="300" height="300" />
           </div>
         </div>
         {/* <Footer/> */}

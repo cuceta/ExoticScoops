@@ -85,6 +85,17 @@ h1 {
   margin: 120px;
   justify-self: center;
   border-radius: 30px;
+
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  align-items: center;
+}
+
+.intro img{
+  justify-self: center;
+  align-self: center;
+  margin-left: 170px;
 }
 
 .intro p {
@@ -374,6 +385,7 @@ h1 {
   font-weight: 600;
 }
 
+
 /* ---===  LOCATIONS PAGE ===--- */
 .locationContainerCream {
   width: 90%;
@@ -540,6 +552,13 @@ h1 {
   margin: 0;
 }
 
+.mission hr,
+.vision hr{
+  height: 2px;
+  background-color: #c74777;
+  border: none;
+}
+
 .missionAndVision p {
   font-family: "Kodchasan", sans-serif;
   font-weight: 400;
@@ -555,6 +574,13 @@ h1 {
   margin-right: -0.6%;
   padding: 0 20px;
   padding-bottom: 30px;
+}
+
+.storyText hr{
+  height: 2px;
+  background-color:#fffff1;
+  border-color:#efafc7;
+  border-radius: 30px;
 }
 
 .ourStory h4, .charities h4 {
@@ -614,9 +640,67 @@ h1 {
 }
 
 
+.charities pre{
+  color: #51371c;
+  font-family: "Kodchasan", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  font-style: normal;
+  margin: 30px 0;
+  width:100%;
+  overflow:visible
+}
+
 
 
 /* ---===  CITATIONS PAGE ===--- */
+
+.CitationsPage h5{
+  font-family: "Kodchasan", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  font-style: normal;
+  justify-self: center;
+  color: #51371c;
+}
+
+.citations {
+  background-color: #F3E8D4;
+  border-radius: 30px;
+  padding: 20px;
+  justify-content: center;
+  justify-items: center;
+  margin: 50px;
+}
+
+.citations h2{
+  font-family: "Knewave", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+  color: #c74777;
+  margin-bottom: 0;
+}
+
+.citationList {
+  padding-left: 20px;
+  line-height: 1.6;
+  margin: 50px;
+}
+
+.citationList li {
+  margin-bottom: 12px;
+  font-size: 20px;
+}
+
+.citationList a {
+  color: #51371c;
+  word-break: break-all;
+}
+
+.citationList a:hover{
+  color:#c74777;
+}
 
 /* ---=== NAV BAR ===--- */
 .navbar {

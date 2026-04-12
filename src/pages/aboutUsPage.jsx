@@ -14,7 +14,9 @@ const AboutUs = () => {
             <p>
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
               commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-              penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+              penatibus et magnis dis parturient montes, nascetur ridiculus mus. <br/>
+              {/*<!-- paragraph formating elements (br and br)  -->*/}
+              <hr/>
               Donec quam felis,putate eleifend tellus. Aenean leo ligula,
               porttitor eu, consequat vitae, eleifend ac, enim.e penatibus et
               magnis dis parturient montes, nascetur ridiculus mus. Donec quam
@@ -31,10 +33,10 @@ const AboutUs = () => {
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
               commodo ligula eget dolor. Aenean massa. Cum sociis natoque
               penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-              Donec quam felis,putate eleifend tellus. Aenean leo ligula,
+              Donec quam felis,putate eleifend tellus.<br/><br/> Aenean leo ligula,
               porttitor eu, consequat vitae, eleifend ac. Donec quam
               felis,putate eleifend tellus. Aenean leo ligula, porttitor eu,
-              consequat vitae, eleifend ac, enim. e penatibus et magnis dis
+              consequat vitae, eleifend ac, enim. <br/><br/>e penatibus et magnis dis
               parturient montes, nascetur ridiculus mus. Done
             </p>
           </div>
@@ -51,6 +53,7 @@ const AboutUs = () => {
                 something real. We kept asking ourselves one question: why
                 should vanilla and chocolate have all the fun?
               </p>
+              <hr/>
               <p>
                 Our first small pop-up launched with just six flavors, including
                 Mango Chili and Lychee Rose. We weren’t sure how people would
@@ -73,6 +76,7 @@ const AboutUs = () => {
                 carrying the same mission: to turn dessert into a moment worth
                 sharing.
               </p>
+              <hr/>
               <p>
                 Today, Exotic Scoops continues to blend classic comfort with
                 exotic twists, always creating flavors that surprise, delight,
@@ -105,6 +109,7 @@ const AboutUs = () => {
             </div>
             <div>
               <p style={{marginBottom:"0"}}>We proudly contribute to:</p>
+              
               <ul>
                 <li style={{marginTop:"-10px"}}>
                   No Kid Hungry &mdash; Supporting programs that help end

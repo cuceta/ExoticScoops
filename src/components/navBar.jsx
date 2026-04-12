@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
-import logo from "../assets/Logo.svg";
+import logo from "/images/logo.svg";
 
 
 // <!-- External CSS Style sheet -->
