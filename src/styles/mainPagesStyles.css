@@ -387,9 +387,13 @@ h1 {
   margin-bottom: 80px;
 }
 
-.locationImage {
+.locationImage img{
   order: 1;
   margin: 20px;
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 30px;
 }
 
 .locationInfo {

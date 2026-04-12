@@ -1,12 +1,12 @@
 import React from "react";
 import "../styles/mainPagesStyles.css"
 
-import NYCImage from "../assets/locationImages/newYorkShop.png"
-import ChicagoImage from "../assets/locationImages/chicagoShop.png"
-import OrlandoImage from "../assets/locationImages/orlandoShop.png"
-import MiamiImage from "../assets/locationImages/miamiShop.png"
-import NashvilleImage from "../assets/locationImages/nashvilleShop.png"
-import LosAngelesImage from "../assets/locationImages/losAngelesShop.png"
+import NYCImage from "/images/nyc.png" 
+import ChicagoImage from "/images/chicago.png"
+import OrlandoImage from "/images/orlando.png"
+import MiamiImage from "/images/miami.png"
+import NashvilleImage from "/images/nashville.png"
+import LosAngelesImage from "/images/la.png"
 import Footer from "../components/footer"
 
 
